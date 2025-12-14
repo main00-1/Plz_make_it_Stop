@@ -1,9 +1,10 @@
-name: idk
+name: GitHub Actions Demo
 on: push
-
 jobs:
-    job:
-      runs_on: ubuntu-latest
-      steps:
-            name: idk
-            run: echo "FUCK the jews" 
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print the triggering event
+        run: echo "The job was triggered by ${{ github.event_name }}."
+      - name: Print the OS of the runner
+        run: echo " This job is running on a ${{ runner.os }} server "
