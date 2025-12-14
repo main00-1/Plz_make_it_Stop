@@ -1,7 +1,10 @@
 name: my-workflow
 
 
-on: push
+on: 
+  push:
+    branches:
+      master
 
 jobs:
   job1:
