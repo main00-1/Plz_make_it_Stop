@@ -1,0 +1,9 @@
+name: idk
+on: push
+
+jobs:
+    job:
+      runs_on: ubuntu-latest
+      steps:
+            name: idk
+            run: echo "FUCK the jews" 
