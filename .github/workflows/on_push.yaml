@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name : Print some random shit
-        run : echo"FUCK THIS MATE"
+        run : echo "FUCK THIS MATE"
